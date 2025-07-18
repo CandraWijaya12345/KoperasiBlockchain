@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'infura' => [
+    'sepolia_url' => env('SEPOLIA_RPC_URL'),
+    'koperasi_address' => env('KOPERASI_CONTRACT_ADDRESS'),
+    'token_address' => env('TOKEN_CONTRACT_ADDRESS'),
+],
 ];
